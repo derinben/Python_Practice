@@ -23,9 +23,7 @@ Your register currently has the following bills/coins within it:
 The aim of the program is to calculate the change that has to be returned to the customer.
 
 Input:
-Your program should read lines of text from standard input.
-Each line contains two numbers which are separated by a semicolon.
-The first is the Purchase price (PP) and the second is the cash(CH) given by the customer.
+The first input is the Purchase price (PP) and the second input is the cash(CH) given by the customer.
 
 Output:
 For each line of input print a single line to standard output which is the change to be returned to the customer.
@@ -35,20 +33,20 @@ The output should be alphabetically sorted. <br>
 
 ```python
 Test 1
-Test Input : 15.94;16.00
+Test Input : 15.94 , 16.00
 Expected Output : NICKEL,PENNY
 
 
 Test 2
-Test Input : Input17;16
+Test Input : Input17 , 16
 Expected Output : ERROR  
 
 Test 3
-Test Input : 35;35
+Test Input : 35 , 35
 Expected Output : ZERO  
 
 
 Test 4
-Test Input : 45;50
+Test Input : 45 , 50
 Expected Output : FIVE
 ```
