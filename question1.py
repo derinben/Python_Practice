@@ -41,7 +41,7 @@ def main():
     for value,denom in results:
         if value !=0:
             for i in range(0,value):
-                final_list.append(denom)
+                final_list.append(denom.upper())
     
     output = sorted(final_list)
     output = (',').join(output)
